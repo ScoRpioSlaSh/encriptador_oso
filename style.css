@@ -1,0 +1,83 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+
+body {
+    background-color: #faf8f8;
+}
+
+
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+} 
+
+.input-texto {
+    display: flex;
+    margin-top: 90px;
+    border-radius: 8px;
+}
+
+.mensaje {
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 40px;
+    background-image: url("Assets/personalook.png");
+    background-repeat: no-repeat;
+    background-position: 15px;
+    background-size: 300px;
+    border-radius: 8px;
+
+}
+
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+
+.copiar {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 230px;
+    background-color: black;
+    color: white;
+    background-image: -webkit-linear-gradient(top, #ce0a0a, #011b2b);
+    border-radius: 5px;
+    box-shadow: 6px 5px 24px #666666;
+    
+}
+
+.encriptar {
+    background-color: rgb(3, 3, 168);
+    color:white;
+    background-image: -webkit-linear-gradient(top, #370bfa, #2079b0);
+    border-radius: 5px;
+    box-shadow: 6px 5px 24px #666666;
+    
+}
+
+
+.desencriptar {
+    margin-left: 30px;
+    background-color: rgb(3, 114, 3);
+    color: white;
+    background-image: -webkit-linear-gradient(top, #129606, #2079b0);
+    border-radius: 5px;
+    box-shadow: 6px 5px 24px #666666;
+}
+
+.instrucciones {
+    font-size: 18px;
+    
+}
